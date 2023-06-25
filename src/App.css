@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+html {
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  padding-bottom: 3rem;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: linear-gradient(90.9deg, rgb(3, 195, 195) 0.3%, rgb(37, 84, 112) 87.8%);
+
+  color: whitesmoke;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: xx-large;
+
+}
+
+.dig-clock {
+  margin-top: 300px;
+}
+
+/*  */
